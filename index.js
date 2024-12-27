@@ -1,6 +1,7 @@
 const fs = require('fs');
 const csv = require('csv-parser');
 
+
 const templateHtml = fs.readFileSync('HTML.html', 'utf-8');
 
 function generateHtml(templateHtml, productData) {
